@@ -1,4 +1,4 @@
-mport streamlit as st
+import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -57,3 +57,4 @@ if selected_subcategories:
     st.metric("Profit Margin (%)", f"{profit_margin:.2f}%", delta=profit_margin - overall_avg_profit_margin)
 else:
     st.write("Please select at least one Sub_Category to view the sales data.")
+
