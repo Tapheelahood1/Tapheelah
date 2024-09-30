@@ -7,7 +7,7 @@ import math
 st.title("Tapheela Hood Data App Assignment, on Oct 7th")
 
 # Load the data
-df = pd.read_csv("Superstore_Sales_utf8.csv", parse_dates=True)
+df = pd.read_csv("Superstore_Sales.csv", parse_dates=True)
 st.write("### Input Data and Examples")
 st.dataframe(df)
 
